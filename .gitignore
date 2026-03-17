@@ -1,0 +1,7 @@
+.env
+*.pcap
+*.pyc
+__pycache__/
+samples/
+reports/
+http_server.py
