@@ -2,6 +2,5 @@
 *.pcap
 *.pyc
 __pycache__/
-samples/
-reports/
+reports/*.html
 http_server.py
