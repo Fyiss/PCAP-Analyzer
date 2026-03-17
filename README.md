@@ -7,27 +7,27 @@ it automatically via email.
 Built as a security research project demonstrating NDR (Network Detection & Response)
 concepts, MITRE ATT&CK mapping, and threat intelligence integration.
 
-> ⚠️ For authorised security research and educational purposes only.
+>  For authorised security research and educational purposes only.
 > Only analyse traffic on networks you own or have explicit permission to monitor.
 
 ---
 
-## 📸 Report Preview
+##  Report Preview
 
 The generated HTML report covers:
 
 | Section | What It Shows |
 |---|---|
-| 🔑 Plaintext Credentials | Decoded FTP/HTTP/Telnet/SMTP credentials |
-| 🔎 Port Scan Detections | Scan type, source IP, ports hit, MITRE tag |
-| 🌐 DNS Analysis | Tunnelling suspects, DGA activity, top domains |
-| 📊 Protocol Breakdown | Traffic % per protocol, insecure/OT flags |
-| ⚠️ Threat Intelligence | AbuseIPDB IOC results with confidence scores |
-| 🔗 Top Sessions | Heaviest conversations by data volume |
+|  Plaintext Credentials | Decoded FTP/HTTP/Telnet/SMTP credentials |
+|  Port Scan Detections | Scan type, source IP, ports hit, MITRE tag |
+|  DNS Analysis | Tunnelling suspects, DGA activity, top domains |
+|  Protocol Breakdown | Traffic % per protocol, insecure/OT flags |
+|  Threat Intelligence | AbuseIPDB IOC results with confidence scores |
+|  Top Sessions | Heaviest conversations by data volume |
 
 ---
 
-## 🗂 Project Structure
+##  Project Structure
 ```
 pcap-analyser/
 ├── main.py                  ← CLI entry point
