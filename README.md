@@ -1,4 +1,4 @@
-# 🔍 PCAP Analyser — Network Forensics & Threat Detection Tool
+#  PCAP Analyser — Network Forensics & Threat Detection Tool
 
 A Python CLI tool that ingests `.pcap` network capture files, runs 6 independent
 analysis modules, generates a professional dark-themed HTML report, and delivers
@@ -51,7 +51,7 @@ pcap-analyser/
 
 ---
 
-## 🧠 How Each Module Works
+##  How Each Module Works
 
 ### `sessions.py` — Session Reconstruction
 Reads every packet and groups them into conversations by
@@ -129,7 +129,7 @@ then queries AbuseIPDB for every public IP found in the PCAP.
 
 ---
 
-## 🚀 Setup From Scratch
+##  Setup From Scratch
 
 ### Step 1 — Clone the repo
 ```bash
@@ -176,7 +176,7 @@ EMAIL_PASSWORD=your_16char_app_password
 EMAIL_RECIPIENT=recipient@gmail.com
 ```
 
-> ⚠️ `.env` is in `.gitignore` — it will never be committed to GitHub.
+>  `.env` is in `.gitignore` — it will never be committed to GitHub.
 
 ---
 
@@ -310,7 +310,7 @@ curl -u testuser:testpassword123 http://127.0.0.1:8080/
 
 ---
 
-## ▶️ Running the Analyser
+##  Running the Analyser
 ```bash
 sudo python3 main.py --file samples/live_capture.pcap --email you@gmail.com
 ```
@@ -354,7 +354,7 @@ The full HTML report is emailed and saved in `reports/`.
 
 ---
 
-## 🛡️ Defensive Relevance
+## Defensive Relevance
 
 | Role | How this applies |
 |---|---|
@@ -365,7 +365,7 @@ The full HTML report is emailed and saved in `reports/`.
 
 ---
 
-## 📋 Dependencies
+##  Dependencies
 ```
 scapy
 requests
@@ -374,7 +374,7 @@ python-dotenv
 
 ---
 
-## 👤 Author
+##  Author
 
 **Darshith Thalipady Nagesh**
 Security Research · Python · Network Forensics · Arch Linux
